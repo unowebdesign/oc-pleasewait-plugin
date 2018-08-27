@@ -1,0 +1,16 @@
+{##}
+{% if please_wait.is_active %}
+    {% put scripts %}
+      <script>
+          window.loading_screen = pleaseWait({
+              logo: '{{ please_wait.logo.path }}',
+              backgroundColor: '{{ please_wait.bg_color }}',
+              loadingHtml: '{{ please_wait.loading_html|raw }}'
+          });
+          if ( window.loading_screen ) {
+              window.loading_screen.finish();
+          }
+      </script>
+      {{ please_wait.loading_css|raw }}
+    {% endput %}
+{% endif %}

@@ -1,0 +1,72 @@
+fields:
+    is_active:
+        label: 'uno.pleasewait::lang.labels.is_active'
+        type: switch
+        commentAbove: 'uno.pleasewait::lang.labels.is_active_comment'
+    logo:
+        label: 'uno.pleasewait::lang.labels.logo'
+        commentAbove: 'uno.pleasewait::lang.labels.logo_comment'
+        span: right
+        type: fileupload
+        mode: image
+        imageHeight: 260
+        imageWidth: 260
+        fileTypes: png,gif,jpg,jpeg
+        mimeTypes: png,gif,jpg,jpeg
+        thumbOptions:
+            mode: crop
+            offset:
+                - 0
+                - 0
+            quality: 80
+            sharpen: 0
+            interlace: true
+            extension: png
+        trigger:
+            action: show
+            field: is_active
+            condition: checked
+    spinner:
+        label: 'uno.pleasewait::lang.labels.spinner'
+        commentAbove: 'uno.pleasewait::lang.labels.spinner_comment'
+        type: spinnerselect
+        span: left
+        trigger:
+            action: show
+            field: is_active
+            condition: checked
+    phrase:
+        label: 'uno.pleasewait::lang.labels.phrase'
+        commentAbove: 'uno.pleasewait::lang.labels.phrase_comment'
+        span: full
+        trigger:
+            action: show
+            field: is_active
+            condition: checked
+    phrase_color:
+        label: 'uno.pleasewait::lang.labels.phrase_color'
+        commentAbove: 'uno.pleasewait::lang.labels.phrase_color_comment'
+        type: colorpicker
+        span: full
+        trigger:
+            action: show
+            field: is_active
+            condition: checked
+    spinner_color:
+        label: 'uno.pleasewait::lang.labels.spinner_color'
+        commentAbove: 'uno.pleasewait::lang.labels.spinner_color_comment'
+        type: colorpicker
+        span: full
+        trigger:
+            action: show
+            field: is_active
+            condition: checked
+    bg_color:
+        label: 'uno.pleasewait::lang.labels.bg_color'
+        commentAbove: 'uno.pleasewait::lang.labels.bg_color_comment'
+        type: colorpicker
+        span: full
+        trigger:
+            action: show
+            field: is_active
+            condition: checked

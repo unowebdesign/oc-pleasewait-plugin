@@ -1,0 +1,150 @@
+/* 1. sk-rotating-plane */
+.sk-rotating-plane {
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;}
+/* /> 1. sk-rotating-plane */
+
+/* 2. sk-double-bounce */
+.sk-double-bounce {
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;}
+/* /> 2. sk-double-bounce */
+
+/* 3. sk-wave */
+.sk-wave {
+  margin: 0 auto;
+  width: 25px;
+  height: 20px;
+  font-size: 6px; }
+  .sk-wave .sk-rect {
+    width: 2px;}
+/* /> 3. sk-wave */
+
+/* 4. sk-wandering-cubes */
+.sk-wandering-cubes {
+    margin: 0 auto;
+    width: 20px;
+    height: 20px;}
+      .sk-wandering-cubes .sk-cube {
+          width: 5px;
+          height: 5px;}
+@-webkit-keyframes sk-wanderingCube {
+  0% {
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg); }
+  25% {
+      -webkit-transform: translateX(15px) rotate(-90deg) scale(0.5);
+              transform: translateX(15px) rotate(-90deg) scale(0.5); }
+  50% {
+      /* Hack to make FF rotate in the right direction */
+      -webkit-transform: translateX(15px) translateY(15px) rotate(-179deg);
+              transform: translateX(15px) translateY(15px) rotate(-179deg); }
+  50.1% {
+      -webkit-transform: translateX(15px) translateY(15px) rotate(-180deg);
+              transform: translateX(15px) translateY(15px) rotate(-180deg); }
+  75% {
+      -webkit-transform: translateX(0) translateY(15px) rotate(-270deg) scale(0.5);
+              transform: translateX(0) translateY(15px) rotate(-270deg) scale(0.5); }
+  100% {
+      -webkit-transform: rotate(-360deg);
+              transform: rotate(-360deg); } }
+@keyframes sk-wanderingCube {
+    0% {
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg); }
+    25% {
+        -webkit-transform: translateX(15px) rotate(-90deg) scale(0.5);
+                transform: translateX(15px) rotate(-90deg) scale(0.5); }
+    50% {
+        /* Hack to make FF rotate in the right direction */
+        -webkit-transform: translateX(15px) translateY(15px) rotate(-179deg);
+                transform: translateX(15px) translateY(15px) rotate(-179deg); }
+    50.1% {
+        -webkit-transform: translateX(15px) translateY(15px) rotate(-180deg);
+                transform: translateX(15px) translateY(15px) rotate(-180deg); }
+    75% {
+        -webkit-transform: translateX(0) translateY(15px) rotate(-270deg) scale(0.5);
+                transform: translateX(0) translateY(15px) rotate(-270deg) scale(0.5); }
+    100% {
+        -webkit-transform: rotate(-360deg);
+                transform: rotate(-360deg); } }
+/* /> 4. sk-wandering-cubes */
+
+/* 5. sk-spinner-pulse */
+.sk-spinner-pulse {
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;}
+/* /> 5. sk-spinner-pulse */
+
+/* 6. sk-chasing-dots */
+.sk-chasing-dots {
+    margin: 0 auto;
+    width: 20px;
+    height: 20px;}
+/* /> 6. sk-chasing-dots */
+
+/* 7. sk-three-bounce */
+.sk-three-bounce {
+    margin: 0 auto;
+    width: 40px;}
+    .sk-three-bounce .sk-child {
+        width: 10px;
+        height: 10px;}
+/* /> 7. sk-three-bounce */
+
+/* 8. sk-circle */
+.sk-circle {
+    margin: 0 auto;
+    width: 20px;
+    height: 20px;}
+/* /> 8. sk-circle */
+
+/* 9. sk-cube-grid */
+.sk-cube-grid {
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;}
+/* /> 9. sk-cube-grid */
+
+/* 10. sk-fading-circle */
+.sk-fading-circle {
+    margin: 0 auto;
+    width: 20px;
+    height: 20px;}
+/* /> 10. sk-fading-circle */
+
+/* 11. sk-folding-cube */
+.sk-folding-cube {
+    margin: 0 auto;
+    width: 20px;
+    height: 20px;}
+@-webkit-keyframes sk-foldCubeAngle {
+    0%, 10% {
+        -webkit-transform: perspective(70px) rotateX(-180deg);
+                transform: perspective(70px) rotateX(-180deg);
+        opacity: 0; }
+    25%, 75% {
+        -webkit-transform: perspective(70px) rotateX(0deg);
+                transform: perspective(70px) rotateX(0deg);
+        opacity: 1; }
+    90%, 100% {
+        -webkit-transform: perspective(70px) rotateY(180deg);
+                transform: perspective(70px) rotateY(180deg);
+        opacity: 0; } }
+@keyframes sk-foldCubeAngle {
+    0%, 10% {
+        -webkit-transform: perspective(70px) rotateX(-180deg);
+                transform: perspective(70px) rotateX(-180deg);
+        opacity: 0; }
+    25%, 75% {
+        -webkit-transform: perspective(70px) rotateX(0deg);
+                transform: perspective(70px) rotateX(0deg);
+        opacity: 1; }
+    90%, 100% {
+        -webkit-transform: perspective(70px) rotateY(180deg);
+                transform: perspective(70px) rotateY(180deg);
+        opacity: 0; } }
+/* /> 11. sk-folding-cube */

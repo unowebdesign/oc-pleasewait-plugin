@@ -1,0 +1,43 @@
+/* 1. sk-rotating-plane */
+.sk-rotating-plane {background-color: #333;}
+/* /> 1. sk-rotating-plane */
+
+/* 2. sk-double-bounce */
+.sk-double-bounce .sk-child {background-color: #333;}
+/* /> 2. sk-double-bounce */
+
+/* 3. sk-wave */
+.sk-wave .sk-rect {background-color: #333;}
+/* /> 3. sk-wave */
+
+/* 4. sk-wandering-cubes */
+.sk-wandering-cubes .sk-cube {background-color: #333;}
+/* /> 4. sk-wandering-cubes */
+
+/* 5. sk-spinner-pulse */
+.sk-spinner-pulse {background-color: #333;}
+/* /> 5. sk-spinner-pulse */
+
+/* 6. sk-chasing-dots */
+.sk-chasing-dots .sk-child {background-color: #333;}
+/* /> 6. sk-chasing-dots */
+
+/* 7. sk-three-bounce */
+.sk-three-bounce .sk-child {background-color: #333;}
+/* /> 7. sk-three-bounce */
+
+/* 8. sk-circle */
+.sk-circle .sk-child:before {background-color: #333;}
+/* /> 8. sk-circle */
+
+/* 9. sk-cube-grid */
+.sk-cube-grid .sk-cube {background-color: #333;}
+/* /> 9. sk-cube-grid */
+
+/* 10. sk-fading-circle */
+.sk-fading-circle .sk-circle:before {background-color: #333;}
+/* /> 10. sk-fading-circle */
+
+/* 11. sk-folding-cube */
+.sk-folding-cube .sk-cube:before {background-color: #333;}
+/* /> 11. sk-folding-cube */

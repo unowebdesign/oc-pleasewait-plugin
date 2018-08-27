@@ -1,0 +1,10 @@
+plugin:
+    name: 'uno.pleasewait::lang.plugin.name'
+    description: 'uno.pleasewait::lang.plugin.description'
+    author: 'Daniel Hernández'
+    icon: oc-icon-spinner
+    homepage: ''
+permissions:
+    manage_splash_page:
+        tab: 'uno.pleasewait::lang.plugin.name'
+        label: 'uno.pleasewait::lang.labels.splash_page_permissions'
